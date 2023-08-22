@@ -1,5 +1,5 @@
 :root {
-    --logo-width: 400px;
+	--logo-width: 400px;
 }
 
 /*------------------------------------*\
@@ -13,19 +13,19 @@
 */
 
 html {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    box-sizing: border-box;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+	color: #111;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 /*
@@ -36,15 +36,15 @@ html {
  */
 
 ::-moz-selection {
-    background: #e85e00;
-    color: white;
-    text-shadow: none;
+	background: black;
+	color: white;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
-    color: white;
-    text-shadow: none;
+	background: #e85e00;
+	color: white;
+	text-shadow: none;
 }
 
 /*------------------------------------*\
@@ -52,8 +52,8 @@ html {
 \*------------------------------------*/
 
 body {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 /*
@@ -63,8 +63,8 @@ body {
 */
 
 img {
-    max-width: 100%;
-    vertical-align: top;
+	max-width: 100%;
+	vertical-align: top;
 }
 
 /*
@@ -74,39 +74,39 @@ img {
 */
 
 h1 {
-    font-family: "Times New Roman", serif;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 40px;
-    margin: 0 0 24px;
+	font-family: "Times New Roman", serif;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0 0 24px;
 }
 
 /* Example inline media query */
 @media (min-width: 768px) {
-    h1 {
-        font-size: 58px;
-        line-height: 64px;
-    }
+	h1 {
+		font-size: 58px;
+		line-height: 64px;
+	}
 }
 
 h2 {
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
+	font-size: 23px;
+	line-height: 32px;
+	margin: 0 0 24px;
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 24px;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 0 24px;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 24px;
 }
 
 p,
@@ -116,132 +116,134 @@ dl,
 table,
 address,
 figure {
-    margin: 0 0 24px;
+	margin: 0 0 24px;
 }
 
 ul,
 ol {
-    padding-left: 24px;
+	padding-left: 24px;
 }
 
 li ul,
 li ol {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 blockquote {
-    font-style: italic;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
+	font-style: italic;
+	font-size: 23px;
+	line-height: 32px;
+	margin: 0 0 24px;
+	font-family: "Times New Roman", serif;
 }
 
 blockquote * {
-    font-size: inherit;
-    line-height: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
 
 figcaption {
-    font-size: 12px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: Grey;
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 8px;
+	color: Grey;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: LightGrey;
-    margin: 0 0 24px;
+	border: 0;
+	height: 1px;
+	background: LightGrey;
+	margin: 0 0 24px;
 }
 
-
 .o-button-reset {
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    overflow: visible;
-    background: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+	background: transparent;
 
-    /* inherit font & color from ancestor */
-    color: inherit;
-    font: inherit;
+	/* inherit font & color from ancestor */
+	color: inherit;
+	font: inherit;
 
-    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
-    line-height: normal;
+	/* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+	line-height: normal;
 
-    /* Corrects font smoothing for webkit */
-    -webkit-font-smoothing: inherit;
-    -moz-osx-font-smoothing: inherit;
+	/* Corrects font smoothing for webkit */
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
 
-    /* Corrects inability to style clickable `input` types in iOS */
-    -webkit-appearance: none;
+	/* Corrects inability to style clickable `input` types in iOS */
+	-webkit-appearance: none;
 }
 
 .c-button-containers {
-    z-index: 2;
-    position: absolute;
-    display: flex;
-    width: 70%;
-    margin-left: 15%;
-    justify-content: space-around;
+	z-index: 2;
+	position: absolute;
+	display: flex;
+	width: 70%;
+	margin-left: 15%;
+	justify-content: space-around;
 }
 
 .c-button {
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 550;
-    width: 15%;
-    border-radius: 5px;
-    border: 1px solid #F2F5FF;
-    background-color: #262933;
-    margin: 32px;
-    margin-top: 100px;
-    color: #F2F5FF;
-    /* line-height: calc(var(--global-baseline) * 3); */
-    padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 550;
+	width: 15%;
+	border-radius: 5px;
+	border: 1px solid #f2f5ff;
+	background-color: #262933;
+	margin: 32px;
+	margin-top: 100px;
+	color: #f2f5ff;
+	/* line-height: calc(var(--global-baseline) * 3); */
+	padding: 12px;
 
-    /* outline: none; */
-    box-shadow: var(--button-boxShadow, 0);
-    transition: all 0.2s cubic-bezier(0.420, 0.000, 0.580, 1.000);
+	/* outline: none; */
+	box-shadow: var(--button-boxShadow, 0);
+	transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .c-button__fb:hover {
-    background-color: #3b5998;
+	background-color: #3b5998;
 }
 
 .c-button__insta:hover {
-    /* background-color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	/* background-color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background-color: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background-color: -o-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  */
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
 }
 
 .c-button__mail:hover {
-    background-color: #c71610; 
+	background-color: #c71610;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+	.c-button {
+		margin: 16px;
+		margin-top: 100px;
+		font-size: 12px;
+		width: 30%;
+	}
 
-    .c-button {
-        margin: 16px;
-        margin-top: 100px;
-        font-size: 12px;
-        width: 30%;
-    }
-
-    .c-button-containers {
-        width: 100%;
-        margin-left: 0%;
-    }
-
+	.c-button-containers {
+		width: 100%;
+		margin-left: 0%;
+	}
 }
 
-
-
 .c-canvas {
-    pointer-events: none;
+	pointer-events: none;
 }
